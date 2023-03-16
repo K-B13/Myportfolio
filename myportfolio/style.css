@@ -43,6 +43,11 @@ li {
   list-style: none;
   color: hotpink;
 }
+button {
+  border: none;
+  color: hotpink;
+  background: none;
+}
 
 .sidebar {
   color:black;
@@ -72,8 +77,8 @@ li {
   font-weight: bold;
 }
 
-.yellow:hover {
-  color: yellow;
+.orange:hover {
+  color: orange;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -88,6 +93,7 @@ font-weight: bold;
 
 aside:hover {
   background: black;
+  color: white;
 }
 
 div {
@@ -97,6 +103,10 @@ div {
   border-radius: 30px;
   font-size: 40px;
   background: black;
+  color: hotpink;
+}
+
+.flashing-background {
   animation-name: change-color;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -108,7 +118,7 @@ div:hover {
 }
 
 .my-projects a:hover, .about-me a:hover, .employment-history a:hover, .qualifications a:hover {
-  color: black;
+  color: cyan;
   text-decoration: underline;
 }
 
@@ -118,6 +128,7 @@ div:hover {
   /* background: black;
   color: red; */
   text-align: center;
+  
   
 }
 
